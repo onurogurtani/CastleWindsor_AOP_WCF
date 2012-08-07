@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost
+Language="C#" Debug="true"
+Service="CastleWindsor_AOP_WCF.TestService"
+CodeBehind="TestService.svc.cs"
+Factory="Castle.Facilities.WcfIntegration.DefaultServiceHostFactory, Castle.Facilities.WcfIntegration" %>
